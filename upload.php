@@ -90,7 +90,7 @@ $msg = "Free Trial Id: $token \r\n\r\nDear Admin,\r\n\r\nA new free trial has be
 		exit(header('Location: https://example.com/thank-you/'));
 	}
 	else{
-		echo "Order submission failed. Please check for error or report to support@imageediting.com for Support. For more, visit www.imageediting.com";
+		echo "Order submission failed. ";
 	}
 
 ?>
