@@ -1,11 +1,5 @@
 <?php
-if ( !defined('ABSPATH') ) {
-    //If wordpress isn't loaded load it up.
-    $path = $_SERVER['DOCUMENT_ROOT'];
-    include_once $path . '/wp-load.php';
-}
 $token = $_POST['token'];
-
 // Step 2: Creat a folder with token as folder name where file will get saved
 $target_dir = "/wp-content/uploads/trial/"; // Absolute path for directory where file will save
 $storeFolder = $target_dir .$token.'/'; // add newly created folder to target path
